@@ -1,0 +1,64 @@
+@import 'variables.css';
+
+:root {
+    /* Add any additional global styles here */
+    font-family: 'Inter', system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+
+body {
+    background-color: var(--background-primary);
+    color: var(--text-primary);
+}
+
+/* Button styles */
+.button-primary {
+    background-color: var(--primary-color);
+    color: var(--text-primary);
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.button-primary:hover {
+    background-color: var(--hover-primary);
+}
+
+.button-primary:active {
+    background-color: var(--active-primary);
+}
+
+/* Card styles */
+.card {
+    background-color: var(--background-secondary);
+    border: 1px solid var(--border-primary);
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Interactive elements */
+.interactive {
+    cursor: pointer;
+    transition: color 0.2s ease;
+}
+
+.interactive:hover {
+    color: var(--primary-color);
+}
+
+/* Status indicators */
+.status-success {
+    color: var(--success-color);
+}
+
+.status-warning {
+    color: var(--warning-color);
+}
+
+.status-error {
+    color: var(--error-color);
+}

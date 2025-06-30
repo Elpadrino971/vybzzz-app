@@ -1,0 +1,1 @@
+{"version":3,"file":"TourPage.131d20c8.js","sources":["../../src/views/plugins/TourPage.vue"],"sourcesContent":["<template>\n  <b-card class=\"card\" title=\"Tour Plugin\"> </b-card>\n</template>\n"],"names":["_createBlock","_component_b_card"],"mappings":"6NACU,SAAY,EAAAA,EAAAC,EAAA,CAAC,MAAM"}

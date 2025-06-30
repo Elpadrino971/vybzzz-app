@@ -1,0 +1,26 @@
+:root {
+    /* Primary Colors */
+    --primary-color: #85144B; /* Burgundy */
+    --secondary-color: #FFD700; /* Gold */
+    --accent-color: #008080; /* Teal Blue */
+    
+    /* Background Colors */
+    --background-primary: #1a1a1a;
+    --background-secondary: #2d2d2d;
+    
+    /* Text Colors */
+    --text-primary: #ffffff;
+    --text-secondary: #cccccc;
+    
+    /* Border Colors */
+    --border-primary: #3d3d3d;
+    
+    /* Interactive States */
+    --hover-primary: #a01e53;
+    --active-primary: #6b123a;
+    
+    /* Success, Warning, Error */
+    --success-color: #4CAF50;
+    --warning-color: #FFA500;
+    --error-color: #FF4444;
+}
